@@ -6,9 +6,21 @@ CREATE TABLE Pasien (
     Alamat VARCHAR(250) NOT NULL
 );
 
+CREATE TABLE RawatInap (
+    IDRawatInap SERIAL PRIMARY KEY,
+    IDPasien INT NOT NULL REFERENCES Pasien(IDPasien),
+    RuangPerawatan VARCHAR(100) NOT NULL,
+    Diagnosis VARCHAR(500),
+    DokterPenanggungjawab VARCHAR(250),
+    ValidStart TIMESTAMP NOT NULL,
+    ValidEnd TIMESTAMP,
+    CONSTRAINT chk_rawatinap_time CHECK (ValidEnd IS NULL OR ValidEnd > ValidStart)
+);
+
 CREATE TABLE TandaVital(
     IDVital SERIAL PRIMARY KEY,
     IDPasien INT NOT NULL REFERENCES Pasien(IDPasien),
+    IDRawatInap INT REFERENCES RawatInap(IDRawatInap),
     Temperature DECIMAL(4,2) NOT NULL,
     Systolic INT NOT NULL,
     Diastolic INT NOT NULL,
@@ -16,5 +28,6 @@ CREATE TABLE TandaVital(
     RespiratoryRate INT NOT NULL,
     SPO2 INT NOT NULL,
     ValidStart TIMESTAMP NOT NULL,
-    ValidEnd TIMESTAMP
+    ValidEnd TIMESTAMP,
+    CONSTRAINT chk_vital_time CHECK (ValidEnd IS NULL OR ValidEnd > ValidStart)
 );

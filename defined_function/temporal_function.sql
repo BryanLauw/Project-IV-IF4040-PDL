@@ -87,15 +87,15 @@ RETURNS TABLE (
 AS $$
 BEGIN
     RETURN QUERY EXECUTE format(
-        'SELECT row_to_json(t.*)::jsonb as data, t.validstart, t.validend
-         FROM %I t
-         WHERE %s
+        '(SELECT row_to_json(t.*)::jsonb as data, t.validstart, t.validend
+          FROM %I t
+          WHERE %s)
          
          UNION
          
-         SELECT row_to_json(t.*)::jsonb as data, t.validstart, t.validend
-         FROM %I t
-         WHERE %s
+         (SELECT row_to_json(t.*)::jsonb as data, t.validstart, t.validend
+          FROM %I t
+          WHERE %s)
          
          ORDER BY validstart',
         _table_name, _condition1, _table_name, _condition2
@@ -115,28 +115,67 @@ CREATE OR REPLACE FUNCTION temporal_set_difference(
 )
 RETURNS TABLE (
     data JSONB,
-    ValidStart TIMESTAMP,
-    ValidEnd TIMESTAMP
+    validstart TIMESTAMP,
+    validend TIMESTAMP
 )
 AS $$
 BEGIN
-    RETURN QUERY EXECUTE format(
-        'SELECT row_to_json(t1.*)::jsonb as data, t1.validstart, t1.validend
-         FROM %I t1
-         WHERE %s
-         AND NOT EXISTS (
-             SELECT 1 FROM %I t2
-             WHERE t2.%I = t1.%I
-             AND %s
-             AND t2.validstart < t1.validstart
-         )
-         ORDER BY t1.validstart',
-        _table_name, _condition_include, 
-        _table_name, _id_column, _id_column,
-        _condition_exclude
-    );
+  RETURN QUERY EXECUTE format(
+    $q$
+    WITH
+    set_a AS (
+      SELECT
+        %1$I AS id,
+        row_to_json(t.*)::jsonb AS data,
+        tsrange(
+          t.validstart,
+          COALESCE(t.validend, 'infinity'::timestamp),
+          '[)'
+        ) AS a_rng
+      FROM %2$I t
+      WHERE %3$s
+    ),
+    set_b AS (
+      SELECT
+        %1$I AS id,
+        tsrange(
+          t.validstart,
+          COALESCE(t.validend, 'infinity'::timestamp),
+          '[)'
+        ) AS b_rng
+      FROM %2$I t
+      WHERE %4$s
+    ),
+    b_merged AS (
+      SELECT
+        id,
+        range_agg(b_rng) AS b_mr
+      FROM set_b
+      GROUP BY id
+    ),
+    diff AS (
+      SELECT
+        a.data,
+        (a.a_rng::tsmultirange - COALESCE(b.b_mr, '{}'::tsmultirange)) AS diff_mr
+      FROM set_a a
+      LEFT JOIN b_merged b USING (id)
+    )
+    SELECT
+      data,
+      lower(rng) AS validstart,
+      NULLIF(upper(rng), 'infinity'::timestamp) AS validend
+    FROM diff
+    CROSS JOIN LATERAL unnest(diff_mr) AS rng
+    ORDER BY validstart
+    $q$,
+    _id_column,
+    _table_name,
+    _condition_include,
+    _condition_exclude
+  );
 END;
 $$ LANGUAGE plpgsql STABLE;
+
 
 
 -- ============================================
@@ -161,13 +200,11 @@ DECLARE
     _select_t1 TEXT;
     _select_t2 TEXT;
 BEGIN
-    -- Build column selections for table 1
     _select_t1 := (
         SELECT string_agg(format('''%s'', t1.%I', col, col), ', ')
         FROM unnest(_columns_t1) col
     );
     
-    -- Build column selections for table 2
     _select_t2 := (
         SELECT string_agg(format('''%s'', t2.%I', col, col), ', ')
         FROM unnest(_columns_t2) col
@@ -227,7 +264,6 @@ RETURNS TABLE (
 )
 AS $$
 BEGIN
-    -- Cast to TIMESTAMP and call the main function
     RETURN QUERY 
     SELECT * FROM temporal_timeslice(_table_name, _timeslice::TIMESTAMP);
 END;

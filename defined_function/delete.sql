@@ -28,12 +28,12 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM TandaVital
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL
     ) THEN
         UPDATE TandaVital
         SET ValidEnd = p_ValidEnd
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL;
     END IF;
 END;

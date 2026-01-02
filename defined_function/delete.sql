@@ -20,7 +20,6 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE FUNCTION DeleteTandaVital(
-    p_IDPasien INT,
     p_IDRawatInap INT,
     p_ValidEnd TIMESTAMP
 )
@@ -29,13 +28,11 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM TandaVital
-        WHERE IDPasien = p_IDPasien
           AND IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL
     ) THEN
         UPDATE TandaVital
         SET ValidEnd = p_ValidEnd
-        WHERE IDPasien = p_IDPasien
           AND IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL;
     END IF;

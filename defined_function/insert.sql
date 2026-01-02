@@ -40,7 +40,6 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE FUNCTION InsertTandaVital(
-    p_IDPasien INT,
     p_IDRawatInap INT,
     p_Temperature DECIMAL,
     p_Systolic INT,
@@ -55,19 +54,16 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM TandaVital
-        WHERE IDPasien = p_IDPasien
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL
     ) THEN
         UPDATE TandaVital
         SET ValidEnd = p_ValidStart
-        WHERE IDPasien = p_IDPasien
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL;
     END IF;
 
     INSERT INTO TandaVital (
-        IDPasien,
         IDRawatInap,
         Temperature,
         Systolic,
@@ -78,7 +74,6 @@ BEGIN
         ValidStart
     )
     VALUES (
-        p_IDPasien,
         p_IDRawatInap,
         p_Temperature,
         p_Systolic,

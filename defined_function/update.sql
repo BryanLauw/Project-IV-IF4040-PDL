@@ -24,7 +24,6 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE FUNCTION UpdateTandaVital(
-    p_IDPasien INT,
     p_IDRawatInap INT,
     p_Temperature DECIMAL,
     p_Systolic INT,
@@ -38,8 +37,7 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM TandaVital
-        WHERE IDPasien = p_IDPasien
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL
     ) THEN
         UPDATE TandaVital
@@ -49,8 +47,7 @@ BEGIN
             HeartRate = p_HeartRate,
             RespiratoryRate = p_RespiratoryRate,
             SPO2 = p_SPO2
-        WHERE IDPasien = p_IDPasien
-          AND IDRawatInap = p_IDRawatInap
+        WHERE IDRawatInap = p_IDRawatInap
           AND ValidEnd IS NULL;
     END IF;
 END;

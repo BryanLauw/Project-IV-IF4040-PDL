@@ -19,7 +19,6 @@ CREATE TABLE RawatInap (
 
 CREATE TABLE TandaVital(
     IDVital SERIAL PRIMARY KEY,
-    IDPasien INT NOT NULL REFERENCES Pasien(IDPasien),
     IDRawatInap INT REFERENCES RawatInap(IDRawatInap),
     Temperature DECIMAL(4,2) NOT NULL,
     Systolic INT NOT NULL,

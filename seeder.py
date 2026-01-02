@@ -310,7 +310,6 @@ def generate_vital_signs(admission_id, patient_id, ruang, valid_start, valid_end
 
         vitals.append(
             (
-                patient_id,
                 admission_id,
                 round(temp, 2),
                 int(systolic),
@@ -409,7 +408,7 @@ def seed_database(num_patients=100):
         print(f"Inserting {len(all_vitals)} vital sign records...")
         execute_values(
             cur,
-            "INSERT INTO TandaVital (IDPasien, IDRawatInap, Temperature, Systolic, Diastolic, HeartRate, RespiratoryRate, SPO2, ValidStart, ValidEnd) VALUES %s",
+            "INSERT INTO TandaVital (IDRawatInap, Temperature, Systolic, Diastolic, HeartRate, RespiratoryRate, SPO2, ValidStart, ValidEnd) VALUES %s",
             all_vitals,
             page_size=1000,
         )

@@ -1,0 +1,256 @@
+idrawatinap,idpasien,ruangperawatan,diagnosis,dokterpenanggungjawab,validstart,validend
+1,1,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. H. Endra Suwarno, S.IP, Sp.PD",2024-03-17 00:00:00,2024-03-19 04:12:00
+2,1,Ruang Rawat Inap Kelas 2,Gastroenteritis akut dengan dehidrasi,"Dr. Hj. Puji Wibowo, Sp.A",2024-05-08 04:12:00,2024-05-10 06:36:00
+3,1,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Yuliana Situmorang, Sp.A",2024-06-04 06:36:00,2024-06-05 18:36:00
+4,1,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. KH. Cakrabuana Siregar, S.Gz, Sp.KFR",2024-07-28 18:36:00,2024-08-04 18:36:00
+5,2,Ruang Rawat Inap Kelas 2,Asma bronkial eksaserbasi akut,"Dr. Tania Hutapea, Sp.P",2024-03-22 00:00:00,2024-03-27 06:00:00
+6,2,ICU,Gagal jantung kongestif,"Dr. Maimunah Yolanda, Sp.PD",2024-05-21 06:00:00,2024-05-28 06:00:00
+7,2,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Ulva Kuswandari, Sp.S",2024-06-05 06:00:00,
+8,3,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Damar Nasyiah, Sp.KFR",2024-01-11 00:00:00,2024-01-18 00:00:00
+9,4,Ruang Rawat Inap Kelas 1,Gagal jantung kongestif,"Dr. Putri Saputra, Sp.PD",2024-03-11 00:00:00,2024-03-15 06:00:00
+10,4,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Balangga Susanti, Sp.JP",2024-04-25 06:00:00,2024-05-01 06:00:00
+11,4,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Rini Permadi, S.H., Sp.JP",2024-06-19 06:00:00,2024-06-26 18:00:00
+12,4,ICU,Stroke iskemik dengan hemiparesis,"Dr. Mulyono Nuraini, Sp.S",2024-07-31 18:00:00,2024-08-03 13:12:00
+13,5,ICU,Acute kidney injury dengan dialysis,"Dr. Makuta Pradipta, Sp.PD",2024-03-16 00:00:00,2024-03-26 12:00:00
+14,5,IGD,Acute myocardial infarction (STEMI),"Dr. Baktianto Zulkarnain, Sp.JP",2024-05-12 12:00:00,2024-05-13 09:57:25.460211
+15,6,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Tina Halimah, Sp.PD",2024-02-05 00:00:00,2024-02-12 06:00:00
+16,6,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Maman Mandala, Sp.KFR",2024-02-27 06:00:00,2024-03-04 13:12:00
+17,7,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Yoga Pudjiastuti, Sp.PD",2024-01-13 00:00:00,2024-01-18 19:12:00
+18,8,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Hasim Yolanda, Sp.PD",2024-03-27 00:00:00,2024-04-02 00:00:00
+19,9,ICU,Respiratory distress syndrome,"Dr. Natalia Yulianti, Sp.An",2024-02-01 00:00:00,2024-02-05 00:00:00
+20,10,ICU,Sepsis dengan syok septik,"Dr. Praba Suwarno, Sp.PD",2024-02-01 00:00:00,2024-02-03 13:12:00
+21,10,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Irma Yuliarti, Sp.PD",2024-03-22 13:12:00,2024-03-26 01:12:00
+22,10,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Umaya Irawan, Sp.A",2024-04-12 01:12:00,2024-04-15 19:12:00
+23,10,IGD,Acute myocardial infarction (STEMI),"Dr. Kemal Pradipta, M.Pd, Sp.PD",2024-05-17 19:12:00,2024-05-17 21:38:47.602221
+24,11,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Tari Firgantoro, S.E., Sp.PD",2024-02-06 00:00:00,2024-02-09 18:00:00
+25,11,ICU,Respiratory distress syndrome,"Dr. Zalindra Nugroho, Sp.A",2024-03-05 18:00:00,2024-03-16 22:48:00
+26,11,IGD,Acute myocardial infarction (STEMI),"Dr. Raihan Widodo, Sp.PD",2024-04-12 22:48:00,2024-04-13 12:03:41.645776
+27,11,ICU,Gagal jantung kongestif,"Dr. drg. Cengkir Siregar, S.Gz, Sp.JP",2024-05-23 12:03:41.645776,
+28,12,Ruang Rawat Inap Kelas 1,Acute kidney injury dengan dialysis,"Dr. Emin Purnawati, Sp.PD",2024-03-27 00:00:00,2024-03-31 09:00:00
+29,13,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Puti Juli Suryono, Sp.PD",2024-02-23 00:00:00,2024-02-26 15:00:00
+30,14,Ruang Rawat Inap Kelas 2,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Syahrini Palastri, Sp.PD",2024-02-03 00:00:00,2024-02-09 07:12:00
+31,14,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. drg. Tirtayasa Mansur, Sp.JP",2024-03-07 07:12:00,2024-03-14 01:12:00
+32,15,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Drs. Nadia Saputra, S.Kom, Sp.A",2024-01-10 00:00:00,2024-01-12 19:12:00
+33,16,IGD,Trauma kepala sedang,"Dr. R. Gamblang Marpaung, M.M., Sp.B",2024-02-17 00:00:00,2024-02-17 20:24:32.007673
+34,16,IGD,Trauma kepala sedang,"Dr. Edi Nashiruddin, S.Ked, Sp.B",2024-04-09 20:24:32.007673,2024-04-10 18:56:05.3573
+35,17,ICU,Stroke iskemik dengan hemiparesis,"Dr. Jessica Sihombing, M.Farm, Sp.S",2024-01-15 00:00:00,2024-01-19 21:36:00
+36,17,PICU,Respiratory distress syndrome,"Dr. Praba Nababan, S.E., Sp.A",2024-03-04 21:36:00,2024-03-15 07:12:00
+37,17,Ruang Rawat Inap Kelas 2,Appendisitis akut,"Dr. Hj. Latika Aryani, Sp.B",2024-05-01 07:12:00,
+38,18,IGD,Acute myocardial infarction (STEMI),"Dr. Tgk. Bakianto Wacana, Sp.PD",2024-02-05 00:00:00,2024-02-05 19:03:22.230782
+39,18,IGD,Appendisitis akut,"Dr. Bakiono Nashiruddin, S.E.I, Sp.B",2024-03-23 19:03:22.230782,2024-03-24 09:22:20.900329
+40,18,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Janet Prayoga, Sp.PD",2024-04-27 09:22:20.900329,2024-04-29 11:46:20.900329
+41,18,ICU,COVID-19 dengan pneumonia,"Dr. Elon Winarno, Sp.PD",2024-06-19 11:46:20.900329,2024-06-28 11:46:20.900329
+42,19,ICU,Trauma kepala sedang,"Dr. Ivan Santoso, Sp.S",2024-01-06 00:00:00,2024-01-11 14:24:00
+43,19,Ruang Rawat Inap Kelas 2,Anemia berat,"Dr. Ilsa Padmasari, Sp.PD",2024-01-31 14:24:00,2024-02-05 16:12:00
+44,20,ICU,Gagal jantung kongestif,"Dr. Queen Anggriawan, S.T., Sp.PD",2024-01-31 00:00:00,2024-02-02 02:24:00
+45,20,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Gatra Prakasa, S.Gz, Sp.S",2024-02-20 02:24:00,2024-02-23 14:24:00
+46,21,ICU,Acute myocardial infarction (STEMI),"Dr. Banara Hastuti, S.Pd, Sp.JP",2024-02-18 00:00:00,2024-02-23 09:36:00
+47,22,ICU,Acute kidney injury dengan dialysis,"Dr. Halim Mardhiyah, Sp.PD",2024-02-09 00:00:00,2024-02-18 18:00:00
+48,22,Ruang Rawat Inap Kelas 3,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Vera Saragih, S.IP, Sp.PD",2024-03-08 18:00:00,2024-03-10 20:24:00
+49,22,Ruang Rawat Inap Kelas 2,Appendisitis akut,"Dr. Vero Sihombing, S.I.Kom, Sp.B",2024-05-05 20:24:00,2024-05-13 20:24:00
+50,23,Ruang Rawat Inap Kelas 1,Gagal jantung kongestif,"Dr. R.A. Gawati Mansur, Sp.JP",2024-02-03 00:00:00,2024-02-05 13:12:00
+51,24,Ruang Rawat Inap Kelas 2,Pneumonia komunitas ringan-sedang,"Dr. Eva Hasanah, Sp.PD",2024-02-25 00:00:00,2024-02-28 18:00:00
+52,24,ICU,Acute myocardial infarction (STEMI),"Dr. Rachel Wahyudin, S.Farm, Sp.JP",2024-03-22 18:00:00,2024-04-01 15:36:00
+53,24,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Pia Halimah, M.Pd, Sp.A",2024-05-29 15:36:00,
+54,25,IGD,Perdarahan gastrointestinal,"Dr. Ir. Rudi Pratama, S.H., Sp.B",2024-03-20 00:00:00,2024-03-20 13:21:13.845914
+55,25,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Perkasa Riyanti, S.Pt, Sp.A",2024-05-08 13:21:13.845914,2024-05-13 01:21:13.845914
+56,25,ICU,COVID-19 dengan pneumonia,"Dr. drg. Karsana Tarihoran, Sp.PD",2024-06-24 01:21:13.845914,2024-07-03 19:21:13.845914
+57,26,Ruang Rawat Inap Kelas 2,Chronic kidney disease stage 4,"Dr. Vero Pratiwi, Sp.PD",2024-03-19 00:00:00,2024-03-27 00:00:00
+58,26,PICU,Pneumonia berat dengan respiratory distress,"Dr. Aswani Pudjiastuti, Sp.PD",2024-05-26 00:00:00,2024-05-30 19:12:00
+59,27,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. Sutan Kemal Nasyiah, Sp.PD",2024-02-29 00:00:00,2024-03-07 06:00:00
+60,27,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Catur Simbolon, Sp.KFR",2024-04-13 06:00:00,2024-04-17 10:48:00
+61,27,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Drs. Maimunah Latupono, S.Kom, Sp.PD",2024-05-26 10:48:00,2024-05-30 01:48:00
+62,28,ICU,Pneumonia berat dengan respiratory distress,"Dr. Restu Lestari, S.Pt, Sp.P",2024-01-19 00:00:00,2024-01-27 00:00:00
+63,28,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. drg. Rusman Hakim, Sp.JP",2024-03-13 00:00:00,2024-03-19 00:00:00
+64,29,Ruang Rawat Inap Kelas 3,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Diah Mulyani, Sp.PD",2024-03-30 00:00:00,2024-04-02 12:00:00
+65,29,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Mutia Pratiwi, Sp.PD",2024-04-18 12:00:00,2024-04-24 12:00:00
+66,30,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Kurnia Hariyah, Sp.PD",2024-01-07 00:00:00,2024-01-13 07:12:00
+67,30,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. Respati Samosir, S.Ked, Sp.PD",2024-01-28 07:12:00,2024-02-04 13:12:00
+68,30,Ruang Rawat Inap Kelas 2,Gastroenteritis akut dengan dehidrasi,"Dr. Hamima Adriansyah, Sp.PD",2024-03-09 13:12:00,2024-03-15 20:24:00
+69,30,IGD,Appendisitis akut,"Dr. Gasti Prastuti, S.Pt, Sp.B",2024-04-19 20:24:00,2024-04-20 15:20:29.672091
+70,31,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Indra Situmorang, Sp.PD",2024-02-05 00:00:00,2024-02-08 15:00:00
+71,31,ICU,Perdarahan gastrointestinal,"Dr. Bella Namaga, S.Gz, Sp.PD",2024-03-03 15:00:00,2024-03-07 09:00:00
+72,32,ICU,Respiratory distress syndrome,"Dr. Warji Halimah, Sp.An",2024-03-31 00:00:00,2024-04-07 04:48:00
+73,32,Ruang Rawat Inap Kelas 2,Gastroenteritis akut dengan dehidrasi,"Dr. Edison Wasita, Sp.A",2024-05-05 04:48:00,2024-05-06 14:24:00
+74,33,Ruang Rawat Inap Kelas 2,Post operasi appendektomi,"Dr. Pranawa Mansur, Sp.B",2024-03-15 00:00:00,2024-03-20 20:24:00
+75,33,Ruang Rawat Inap Kelas 2,Hipertensi emergensi,"Dr. Ir. Omar Yuliarti, S.Farm, Sp.JP",2024-03-27 20:24:00,2024-04-03 10:48:00
+76,33,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Kezia Hassanah, Sp.S",2024-05-14 10:48:00,2024-05-17 22:48:00
+77,33,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. drg. Keisha Hutapea, M.Pd, Sp.PD",2024-06-10 22:48:00,2024-06-16 22:48:00
+78,34,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Martani Tampubolon, Sp.PD",2024-01-22 00:00:00,2024-01-27 19:12:00
+79,34,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. Cemani Nasyiah, Sp.PD",2024-03-11 19:12:00,2024-03-18 04:48:00
+80,34,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Paris Mahendra, Sp.PD",2024-04-02 04:48:00,2024-04-06 13:12:00
+81,34,IGD,Perdarahan gastrointestinal,"Dr. Genta Adriansyah, S.Ked, Sp.B",2024-05-07 13:12:00,2024-05-07 22:39:35.529788
+82,35,IGD,Appendisitis akut,"Dr. Malika Wulandari, Sp.B",2024-02-23 00:00:00,2024-02-23 02:49:07.244401
+83,35,ICU,Acute myocardial infarction (STEMI),"Dr. Puji Anggraini, M.Pd, Sp.JP",2024-04-04 02:49:07.244401,2024-04-15 19:37:07.244401
+84,35,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Yuni Pradana, Sp.JP",2024-04-26 19:37:07.244401,2024-04-30 13:37:07.244401
+85,36,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. Jagaraga Situmorang, Sp.P",2024-01-31 00:00:00,2024-02-04 09:00:00
+86,36,Ruang Rawat Inap Kelas 3,Post operasi appendektomi,"Dr. Enteng Nainggolan, Sp.B",2024-03-11 09:00:00,2024-03-13 23:24:00
+87,37,IGD,Trauma kepala sedang,"Dr. Vanesa Kusumo, S.Gz, Sp.S",2024-01-21 00:00:00,2024-01-21 22:27:50.266215
+88,38,ICU,Sepsis dengan syok septik,"Dr. Ir. Hari Susanti, S.Ked, Sp.PD",2024-01-26 00:00:00,2024-02-06 21:36:00
+89,38,IGD,Trauma kepala sedang,"Dr. Danang Hidayat, Sp.S",2024-04-02 21:36:00,2024-04-03 07:29:58.56479
+90,38,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Legawa Firmansyah, Sp.PD",2024-05-07 07:29:58.56479,2024-05-14 13:29:58.56479
+91,38,IGD,Perdarahan gastrointestinal,"Dr. Rahayu Wulandari, Sp.B",2024-07-01 13:29:58.56479,2024-07-02 09:39:43.016981
+92,39,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. Alika Prasasta, S.Gz, Sp.P",2024-03-31 00:00:00,2024-04-08 18:00:00
+93,39,Ruang Rawat Inap Kelas 2,Appendisitis akut,"Dr. Maida Pradipta, Sp.B",2024-05-26 18:00:00,2024-06-02 03:36:00
+94,39,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Sutan Perkasa Hakim, Sp.S",2024-07-31 03:36:00,2024-08-03 15:36:00
+95,39,ICU,Sepsis dengan syok septik,"Dr. Jefri Siregar, Sp.An",2024-10-02 15:36:00,2024-10-07 18:00:00
+96,40,PICU,Pneumonia berat dengan respiratory distress,"Dr. Rahman Permata, Sp.PD",2024-02-13 00:00:00,2024-02-17 00:00:00
+97,40,PICU,Respiratory distress syndrome,"Dr. Ratih Rahimah, Sp.An",2024-03-26 00:00:00,2024-04-01 09:36:00
+98,40,Ruang Rawat Inap Kelas 3,Pneumonia komunitas ringan-sedang,"Dr. Ir. Reza Sinaga, S.H., Sp.P",2024-04-25 09:36:00,2024-05-02 21:36:00
+99,40,ICU,Sepsis dengan syok septik,"Dr. Dinda Wijayanti, Sp.An",2024-05-21 21:36:00,2024-05-30 09:36:00
+100,41,Ruang Rawat Inap Kelas 3,Post operasi appendektomi,"Dr. Sutan Hendri Salahudin, Sp.B",2024-03-23 00:00:00,2024-03-24 07:12:00
+101,41,IGD,Trauma kepala sedang,"Dr. Almira Puspita, Sp.B",2024-04-05 07:12:00,2024-04-06 00:32:33.369196
+102,41,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. R. Sari Wastuti, Sp.PD",2024-05-02 00:32:33.369196,2024-05-09 06:32:33.369196
+103,41,Ruang Rawat Inap Kelas 2,Hipertensi emergensi,"Dr. Puti Lailasari, Sp.JP",2024-06-18 06:32:33.369196,2024-06-24 01:08:33.369196
+104,42,ICU,Acute kidney injury dengan dialysis,"Dr. Gangsar Yuniar, Sp.PD",2024-02-02 00:00:00,2024-02-08 00:00:00
+105,42,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Harjaya Novitasari, S.Psi, Sp.KFR",2024-02-22 00:00:00,2024-02-25 12:00:00
+106,42,Ruang Rawat Inap Kelas 2,Tuberkulosis paru dengan komplikasi,"Dr. Lidya Wasita, S.E.I, Sp.P",2024-04-19 12:00:00,2024-04-21 19:48:00
+107,43,Ruang Rawat Inap Kelas 1,Gagal jantung kongestif,"Dr. Keisha Nashiruddin, Sp.JP",2024-02-16 00:00:00,2024-02-24 12:00:00
+108,43,IGD,Appendisitis akut,"Dr. Dr. Jasmani Permadi, S.H., Sp.B",2024-03-10 12:00:00,2024-03-11 02:21:09.193258
+109,44,PICU,Pneumonia berat dengan respiratory distress,"Dr. Zamira Megantara, Sp.PD",2024-01-14 00:00:00,2024-01-22 00:00:00
+110,44,IGD,Perdarahan gastrointestinal,"Dr. drg. Vinsen Hakim, M.Pd, Sp.PD",2024-02-26 00:00:00,2024-02-26 07:51:12.719645
+111,44,ICU,Stroke iskemik dengan hemiparesis,"Dr. Lidya Puspita, Sp.S",2024-04-03 07:51:12.719645,2024-04-10 07:51:12.719645
+112,44,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. R.M. Harsanto Prasasta, Sp.PD",2024-04-21 07:51:12.719645,2024-04-24 12:39:12.719645
+113,45,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Farhunnisa Sitompul, Sp.S",2024-02-01 00:00:00,2024-02-09 12:00:00
+114,46,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Bahuwirya Hartati, S.I.Kom, Sp.PD",2024-03-16 00:00:00,2024-03-18 06:00:00
+115,46,ICU,Respiratory distress syndrome,"Dr. Kawaca Nainggolan, Sp.An",2024-05-12 06:00:00,2024-05-22 15:36:00
+116,46,ICU,Gagal jantung kongestif,"Dr. Embuh Waluyo, Sp.JP",2024-06-03 15:36:00,
+117,47,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. Lukita Suartini, S.Gz, Sp.PD",2024-02-22 00:00:00,2024-02-23 10:48:00
+118,48,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Puti Fitriani Rahmawati, M.Pd, Sp.PD",2024-03-30 00:00:00,2024-04-03 08:24:00
+119,48,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Jatmiko Pranowo, Sp.JP",2024-05-30 08:24:00,2024-06-01 14:24:00
+120,48,ICU,Acute kidney injury dengan dialysis,"Dr. dr. Ilsa Budiman, S.Kom, Sp.PD",2024-07-12 14:24:00,
+121,49,Ruang Rawat Inap Kelas 3,Pneumonia komunitas ringan-sedang,"Dr. Yono Lazuardi, Sp.PD",2024-02-09 00:00:00,2024-02-11 06:00:00
+122,49,Ruang Rawat Inap Kelas 3,Post operasi appendektomi,"Dr. Usyi Kuswandari, S.H., Sp.B",2024-03-18 06:00:00,2024-03-22 03:36:00
+123,50,Ruang Rawat Inap Kelas 2,Pneumonia komunitas ringan-sedang,"Dr. Rahmi Putra, S.Sos, Sp.PD",2024-01-11 00:00:00,2024-01-16 06:00:00
+124,50,IGD,Appendisitis akut,"Dr. Kusuma Sinaga, Sp.B",2024-03-01 06:00:00,2024-03-01 13:20:41.162567
+125,50,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. T. Harjasa Hastuti, M.Pd, Sp.PD",2024-04-20 13:20:41.162567,2024-04-22 03:44:41.162567
+126,50,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Gatot Samosir, S.T., Sp.JP",2024-06-16 03:44:41.162567,2024-06-23 15:44:41.162567
+127,51,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Oliva Mandasari, Sp.PD",2024-03-15 00:00:00,2024-03-21 18:00:00
+128,51,Ruang Rawat Inap Kelas 3,Dengue fever grade II,"Dr. Cinthia Halimah, Sp.A",2024-04-19 18:00:00,2024-04-22 00:00:00
+129,52,Ruang Rawat Inap Kelas 2,Tuberkulosis paru dengan komplikasi,"Dr. Tgk. Vinsen Putra, S.I.Kom, Sp.P",2024-03-29 00:00:00,2024-04-05 18:00:00
+130,52,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Laras Gunawan, Sp.PD",2024-04-14 18:00:00,2024-04-19 02:24:00
+131,52,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. R.A. Ulya Maulana, Sp.S",2024-05-16 02:24:00,2024-05-24 14:24:00
+132,52,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Elon Puspasari, Sp.PD",2024-06-29 14:24:00,2024-07-07 02:24:00
+133,53,Ruang Rawat Inap Kelas 2,Demam tifoid,"Dr. Ir. Tantri Agustina, Sp.PD",2024-03-21 00:00:00,2024-03-25 08:24:00
+134,53,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. Eva Napitupulu, Sp.PD",2024-05-06 08:24:00,2024-05-14 05:24:00
+135,53,ICU,Pneumonia berat dengan respiratory distress,"Dr. Ghaliyati Wibowo, Sp.An",2024-05-28 05:24:00,2024-06-01 05:24:00
+136,53,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. R.A. Najwa Pudjiastuti, Sp.A",2024-06-27 05:24:00,2024-06-29 07:48:00
+137,54,ICU,Stroke iskemik dengan hemiparesis,"Dr. Warsa Sirait, S.T., Sp.S",2024-02-29 00:00:00,2024-03-09 19:12:00
+138,55,Ruang Rawat Inap Kelas 2,Tuberkulosis paru dengan komplikasi,"Dr. drg. Nyoman Yuniar, M.Kom., Sp.P",2024-02-23 00:00:00,2024-02-29 23:24:00
+139,55,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. Ella Thamrin, Sp.P",2024-04-11 23:24:00,2024-04-20 17:24:00
+140,55,ICU,COVID-19 dengan pneumonia,"Dr. Cahyono Palastri, Sp.PD",2024-06-13 17:24:00,2024-06-20 11:24:00
+141,56,ICU,Trauma kepala sedang,"Dr. Fitria Namaga, Sp.B",2024-01-01 00:00:00,2024-01-04 12:00:00
+142,56,Ruang Rawat Inap Kelas 2,Gastroenteritis akut dengan dehidrasi,"Dr. Yusuf Halim, M.TI., Sp.A",2024-02-08 12:00:00,2024-02-13 09:36:00
+143,56,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Salman Hutagalung, Sp.JP",2024-03-26 09:36:00,2024-03-31 15:36:00
+144,57,Ruang Rawat Inap Kelas 2,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Hj. Alika Ardianto, S.Farm, Sp.PD",2024-03-14 00:00:00,2024-03-15 09:36:00
+145,57,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Saiful Usamah, Sp.S",2024-04-11 09:36:00,2024-04-17 00:00:00
+146,58,IGD,Acute myocardial infarction (STEMI),"Dr. Bagas Maryadi, Sp.PD",2024-03-04 00:00:00,2024-03-04 21:11:07.896367
+147,58,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Darimin Mayasari, Sp.S",2024-04-08 21:11:07.896367,2024-04-12 06:47:07.896367
+148,59,Ruang Rawat Inap Kelas 2,Tuberkulosis paru dengan komplikasi,"Dr. Kasiyah Halim, Sp.P",2024-01-10 00:00:00,2024-01-16 04:48:00
+149,59,ICU,Sepsis dengan syok septik,"Dr. Hj. Salwa Susanti, Sp.An",2024-03-04 04:48:00,2024-03-11 00:00:00
+150,60,IGD,Acute myocardial infarction (STEMI),"Dr. Sakura Laksita, Sp.JP",2024-03-10 00:00:00,2024-03-10 16:01:59.080671
+151,60,ICU,Acute kidney injury dengan dialysis,"Dr. Adiarja Nasyidah, Sp.PD",2024-04-04 16:01:59.080671,2024-04-07 16:01:59.080671
+152,60,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. dr. Adinata Budiyanto, Sp.JP",2024-06-01 16:01:59.080671,2024-06-04 16:01:59.080671
+153,60,IGD,Trauma kepala sedang,"Dr. H. Endra Nasyiah, Sp.S",2024-07-25 16:01:59.080671,
+154,61,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Anita Mardhiyah, Sp.PD",2024-02-17 00:00:00,2024-02-24 12:00:00
+155,61,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. Hj. Mala Nugroho, S.IP, Sp.PD",2024-03-28 12:00:00,2024-03-31 16:48:00
+156,61,Ruang Rawat Inap Kelas 3,Pneumonia komunitas ringan-sedang,"Dr. Karna Maryadi, Sp.P",2024-04-12 16:48:00,2024-04-19 10:48:00
+157,62,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Dadi Safitri, Sp.JP",2024-02-29 00:00:00,2024-03-04 12:00:00
+158,62,PICU,Pneumonia berat dengan respiratory distress,"Dr. T. Rahman Thamrin, Sp.PD",2024-04-22 12:00:00,2024-05-02 21:36:00
+159,63,Ruang Rawat Inap Kelas 2,Chronic kidney disease stage 4,"Dr. Wulan Widodo, Sp.PD",2024-02-14 00:00:00,2024-02-18 19:12:00
+160,63,IGD,Trauma kepala sedang,"Dr. Hardi Waskita, Sp.B",2024-03-25 19:12:00,2024-03-26 16:01:55.365265
+161,63,Ruang Rawat Inap Kelas 1,Acute kidney injury dengan dialysis,"Dr. Padmi Prasasta, Sp.PD",2024-04-08 16:01:55.365265,2024-04-13 22:01:55.365265
+162,63,IGD,Trauma kepala sedang,"Dr. Genta Salahudin, S.Pt, Sp.B",2024-06-03 22:01:55.365265,2024-06-04 06:21:38.959628
+163,64,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Sidiq Yulianti, S.Gz, Sp.S",2024-03-18 00:00:00,2024-03-21 12:00:00
+164,65,PICU,Respiratory distress syndrome,"Dr. Halim Wibowo, Sp.A",2024-03-22 00:00:00,2024-04-01 09:36:00
+165,65,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Puspa Kusmawati, Sp.JP",2024-04-14 09:36:00,
+166,66,ICU,Sepsis dengan syok septik,"Dr. Makuta Anggriawan, Sp.An",2024-01-17 00:00:00,2024-01-28 21:36:00
+167,66,ICU,Gagal jantung kongestif,"Dr. Ella Hutasoit, M.Kom., Sp.JP",2024-03-01 21:36:00,2024-03-09 14:24:00
+168,66,Ruang Rawat Inap Kelas 3,Asma bronkial eksaserbasi akut,"Dr. drg. Septi Sitompul, M.Farm, Sp.P",2024-04-08 14:24:00,2024-04-13 02:24:00
+169,67,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Puti Paris Gunarto, S.H., Sp.S",2024-02-13 00:00:00,2024-02-16 09:36:00
+170,67,Ruang Rawat Inap Kelas 1,Acute kidney injury dengan dialysis,"Dr. Umay Purnawati, Sp.PD",2024-04-11 09:36:00,2024-04-14 00:36:00
+171,67,Ruang Rawat Inap Kelas 2,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Humaira Gunawan, Sp.PD",2024-06-10 00:36:00,2024-06-17 00:36:00
+172,68,Ruang Rawat Inap Kelas 3,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Mahdi Setiawan, Sp.PD",2024-03-15 00:00:00,2024-03-18 12:00:00
+173,68,PICU,Pneumonia berat dengan respiratory distress,"Dr. Drs. Maryadi Firmansyah, Sp.An",2024-04-24 12:00:00,2024-04-29 07:12:00
+174,68,ICU,Sepsis dengan syok septik,"Dr. Wisnu Sihotang, Sp.An",2024-06-16 07:12:00,2024-06-27 08:24:00
+175,69,ICU,Trauma kepala sedang,"Dr. Yono Pranowo, Sp.S",2024-01-05 00:00:00,2024-01-07 19:12:00
+176,70,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. R. Umi Widodo, Sp.PD",2024-02-19 00:00:00,2024-02-21 21:36:00
+177,70,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Eja Marpaung, Sp.JP",2024-03-25 21:36:00,2024-03-31 21:36:00
+178,71,IGD,Hipertensi emergensi,"Dr. R.A. Qori Wibisono, Sp.JP",2024-03-29 00:00:00,2024-03-29 12:00:19.550056
+179,72,Ruang Rawat Inap Kelas 2,Hipertensi emergensi,"Dr. Usman Namaga, S.Psi, Sp.PD",2024-03-28 00:00:00,2024-04-03 14:24:00
+180,73,Ruang Rawat Inap Kelas 2,Anemia berat,"Dr. Usyi Mandala, Sp.PD",2024-01-12 00:00:00,2024-01-13 10:48:00
+181,73,IGD,Perdarahan gastrointestinal,"Dr. H. Nyoman Hutapea, M.TI., Sp.PD",2024-03-10 10:48:00,2024-03-11 06:11:55.417054
+182,73,ICU,Sepsis dengan syok septik,"Dr. Jelita Habibi, S.IP, Sp.PD",2024-03-31 06:11:55.417054,2024-04-05 08:35:55.417054
+183,73,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Gina Hutagalung, Sp.JP",2024-05-03 08:35:55.417054,2024-05-07 20:35:55.417054
+184,74,IGD,Appendisitis akut,"Dr. Rahmi Susanti, Sp.B",2024-03-10 00:00:00,2024-03-10 16:40:43.842288
+185,74,ICU,COVID-19 dengan pneumonia,"Dr. drg. Vicky Simbolon, Sp.PD",2024-03-18 16:40:43.842288,2024-03-23 04:40:43.842288
+186,75,IGD,Acute myocardial infarction (STEMI),"Dr. Mahesa Saputra, Sp.PD",2024-02-03 00:00:00,2024-02-03 13:45:48.410548
+187,75,ICU,Sepsis dengan syok septik,"Dr. drg. Joko Pradana, S.I.Kom, Sp.An",2024-03-28 13:45:48.410548,2024-04-04 08:57:48.410548
+188,76,ICU,Acute kidney injury dengan dialysis,"Dr. dr. Ian Nashiruddin, Sp.PD",2024-03-05 00:00:00,2024-03-12 12:00:00
+189,76,ICU,Pneumonia berat dengan respiratory distress,"Dr. Lanang Wijayanti, S.Sos, Sp.PD",2024-04-29 12:00:00,2024-05-06 16:48:00
+190,76,Ruang Rawat Inap Kelas 2,Anemia berat,"Dr. Prasetyo Safitri, Sp.PD",2024-06-09 16:48:00,2024-06-16 05:24:00
+191,76,ICU,Sepsis dengan syok septik,"Dr. Wirda Prayoga, Sp.PD",2024-06-27 05:24:00,2024-06-30 15:00:00
+192,77,Ruang Rawat Inap Kelas 3,Pneumonia komunitas ringan-sedang,"Dr. Belinda Hutasoit, S.T., Sp.PD",2024-02-18 00:00:00,2024-02-25 12:00:00
+193,77,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Harjasa Usada, Sp.PD",2024-04-10 12:00:00,2024-04-18 00:00:00
+194,77,PICU,Respiratory distress syndrome,"Dr. Okta Wibisono, Sp.An",2024-06-10 00:00:00,2024-06-14 19:12:00
+195,78,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Karen Kurniawan, Sp.A",2024-02-21 00:00:00,2024-02-27 00:00:00
+196,78,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Adhiarja Samosir, Sp.PD",2024-03-25 00:00:00,2024-03-27 21:36:00
+197,78,Ruang Rawat Inap Kelas 1,Tuberkulosis paru dengan komplikasi,"Dr. Karen Saputra, Sp.P",2024-05-16 21:36:00,2024-05-19 05:24:00
+198,78,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Cahyadi Irawan, Sp.A",2024-05-31 05:24:00,2024-06-03 05:24:00
+199,79,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Irfan Hassanah, Sp.S",2024-03-26 00:00:00,2024-04-01 19:12:00
+200,79,ICU,Acute myocardial infarction (STEMI),"Dr. Dr. Kambali Wasita, Sp.PD",2024-05-24 19:12:00,2024-06-01 00:00:00
+201,79,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. Akarsana Irawan, Sp.PD",2024-06-14 00:00:00,2024-06-21 04:48:00
+202,80,IGD,Hipertensi emergensi,"Dr. Puspa Iswahyudi, Sp.JP",2024-03-12 00:00:00,2024-03-12 14:48:02.016337
+203,80,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Ir. Violet Simbolon, Sp.A",2024-05-09 14:48:02.016337,2024-05-11 02:48:02.016337
+204,80,Ruang Rawat Inap Kelas 2,Appendisitis akut,"Dr. drg. Amalia Siregar, S.Farm, Sp.B",2024-05-29 02:48:02.016337,
+205,81,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Victoria Hutasoit, Sp.PD",2024-03-13 00:00:00,2024-03-15 21:36:00
+206,81,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Putri Prasasta, M.Farm, Sp.PD",2024-05-08 21:36:00,2024-05-16 09:36:00
+207,82,Ruang Rawat Inap Kelas 1,Gagal jantung kongestif,"Dr. R.M. Mahdi Wibowo, Sp.PD",2024-02-13 00:00:00,2024-02-18 22:48:00
+208,82,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. Cahyono Santoso, Sp.PD",2024-04-14 22:48:00,2024-04-18 03:36:00
+209,82,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Hasna Lailasari, Sp.JP",2024-05-05 03:36:00,2024-05-09 15:36:00
+210,82,Ruang Rawat Inap Kelas 3,Anemia berat,"Dr. Atma Marbun, Sp.PD",2024-06-13 15:36:00,2024-06-20 04:12:00
+211,83,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Ika Andriani, Sp.A",2024-02-14 00:00:00,2024-02-20 18:00:00
+212,84,Ruang Rawat Inap Kelas 2,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Novi Hutagalung, Sp.PD",2024-01-29 00:00:00,2024-02-01 12:00:00
+213,85,ICU,Trauma kepala sedang,"Dr. Hafshah Prayoga, Sp.S",2024-02-02 00:00:00,2024-02-04 02:24:00
+214,85,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Sari Lailasari, M.Ak, Sp.KFR",2024-03-13 02:24:00,2024-03-15 21:36:00
+215,86,Ruang Rawat Inap Kelas 2,Gastroenteritis akut dengan dehidrasi,"Dr. R.A. Michelle Kurniawan, Sp.PD",2024-03-05 00:00:00,2024-03-10 14:24:00
+216,86,ICU,Acute myocardial infarction (STEMI),"Dr. Gadang Ardianto, Sp.JP",2024-05-03 14:24:00,2024-05-12 14:24:00
+217,87,Ruang Rawat Inap Kelas 3,Diabetes mellitus tipe 2 tidak terkontrol,"Dr. Juli Safitri, Sp.PD",2024-03-14 00:00:00,2024-03-16 02:24:00
+218,87,PICU,Pneumonia berat dengan respiratory distress,"Dr. Wani Sitompul, Sp.P",2024-04-17 02:24:00,2024-04-26 16:48:00
+219,87,Ruang Rawat Inap Kelas 3,Post operasi appendektomi,"Dr. Juli Astuti, Sp.B",2024-06-01 16:48:00,2024-06-06 21:36:00
+220,87,Ruang Rawat Inap Kelas 1,Acute kidney injury dengan dialysis,"Dr. Hj. Rina Mansur, S.Pd, Sp.PD",2024-06-19 21:36:00,
+221,88,Ruang Rawat Inap Kelas 1,Acute kidney injury dengan dialysis,"Dr. Rahmi Pangestu, Sp.PD",2024-02-13 00:00:00,2024-02-15 15:00:00
+222,88,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Iriana Nugroho, Sp.PD",2024-03-25 15:00:00,2024-03-30 21:00:00
+223,88,Ruang Rawat Inap Kelas 1,Post stroke rehabilitation,"Dr. Jamalia Siregar, Sp.KFR",2024-04-28 21:00:00,2024-04-30 23:24:00
+224,89,ICU,COVID-19 dengan pneumonia,"Dr. Talia Usada, M.Kom., Sp.P",2024-03-18 00:00:00,2024-03-27 18:00:00
+225,89,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. R.A. Jane Waluyo, Sp.PD",2024-05-04 18:00:00,2024-05-09 19:48:00
+226,90,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Yuliana Wijaya, Sp.JP",2024-02-26 00:00:00,2024-02-27 12:00:00
+227,90,Ruang Rawat Inap Kelas 2,Asma bronkial eksaserbasi akut,"Dr. Calista Pratiwi, Sp.A",2024-03-27 12:00:00,2024-04-03 06:00:00
+228,90,IGD,Acute myocardial infarction (STEMI),"Dr. Lega Palastri, Sp.PD",2024-05-08 06:00:00,2024-05-09 02:21:52.730078
+229,90,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Mahmud Pudjiastuti, Sp.JP",2024-05-20 02:21:52.730078,2024-05-26 20:21:52.730078
+230,91,Ruang Rawat Inap Kelas 1,Chronic kidney disease stage 4,"Dr. Wawan Hariyah, Sp.PD",2024-02-27 00:00:00,2024-03-05 04:48:00
+231,92,IGD,Perdarahan gastrointestinal,"Dr. Fathonah Farida, S.Pd, Sp.PD",2024-01-14 00:00:00,2024-01-14 03:14:43.691733
+232,92,Ruang Rawat Inap Kelas 3,Demam tifoid,"Dr. Puti Yuliana Wasita, M.Kom., Sp.PD",2024-03-06 03:14:43.691733,2024-03-11 05:02:43.691733
+233,92,ICU,Trauma kepala sedang,"Dr. Mahesa Sihombing, Sp.B",2024-04-10 05:02:43.691733,2024-04-15 19:26:43.691733
+234,92,Ruang Rawat Inap Kelas 2,Pneumonia komunitas ringan-sedang,"Dr. Dono Wahyuni, Sp.PD",2024-06-04 19:26:43.691733,2024-06-07 01:26:43.691733
+235,93,IGD,Appendisitis akut,"Dr. Nasrullah Anggraini, Sp.B",2024-02-06 00:00:00,2024-02-06 04:09:37.594544
+236,93,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. dr. Bagya Hassanah, M.Ak, Sp.PD",2024-03-26 04:09:37.594544,2024-04-02 04:09:37.594544
+237,93,Ruang Rawat Inap Kelas 2,Pneumonia komunitas ringan-sedang,"Dr. Restu Wacana, Sp.PD",2024-04-17 04:09:37.594544,2024-04-24 16:09:37.594544
+238,93,Ruang Rawat Inap Kelas 2,Hipertensi dengan komplikasi,"Dr. Dr. Virman Andriani, Sp.PD",2024-05-25 16:09:37.594544,
+239,94,IGD,Hipertensi emergensi,"Dr. Dt. Paiman Tarihoran, Sp.JP",2024-03-06 00:00:00,2024-03-06 09:04:17.425608
+240,94,ICU,Perdarahan gastrointestinal,"Dr. Yessi Nasyiah, M.Ak, Sp.PD",2024-03-26 09:04:17.425608,2024-03-30 21:04:17.425608
+241,94,ICU,COVID-19 dengan pneumonia,"Dr. Vinsen Hutasoit, S.IP, Sp.PD",2024-04-14 21:04:17.425608,2024-04-17 21:04:17.425608
+242,94,Ruang Rawat Inap Kelas 1,Post myocardial infarction care,"Dr. Sutan Maryadi Widiastuti, S.I.Kom, Sp.JP",2024-05-26 21:04:17.425608,2024-05-29 21:04:17.425608
+243,95,Ruang Rawat Inap Kelas 2,Post operasi appendektomi,"Dr. Marsudi Suryatmi, Sp.B",2024-01-24 00:00:00,2024-01-25 07:12:00
+244,95,IGD,Hipertensi emergensi,"Dr. Kardi Yuliarti, Sp.JP",2024-02-27 07:12:00,2024-02-27 22:47:19.900025
+245,96,Ruang Rawat Inap Kelas 3,Gastroenteritis akut dengan dehidrasi,"Dr. Marsudi Wacana, S.Psi, Sp.A",2024-01-30 00:00:00,2024-02-05 07:12:00
+246,96,PICU,Respiratory distress syndrome,"Dr. dr. Balamantri Anggriawan, S.IP, Sp.An",2024-04-05 07:12:00,2024-04-13 07:12:00
+247,96,ICU,Trauma kepala sedang,"Dr. Gawati Melani, Sp.B",2024-06-08 07:12:00,2024-06-11 19:12:00
+248,96,ICU,Respiratory distress syndrome,"Dr. Padma Puspita, M.Farm, Sp.An",2024-08-09 19:12:00,2024-08-12 04:48:00
+249,97,Ruang Rawat Inap Kelas 1,Stroke iskemik dengan hemiparesis,"Dr. Ratih Prasetya, M.M., Sp.S",2024-03-07 00:00:00,2024-03-10 09:36:00
+250,98,ICU,Sepsis dengan syok septik,"Dr. Kania Hariyah, Sp.An",2024-02-25 00:00:00,2024-03-02 19:12:00
+251,98,Ruang Rawat Inap Kelas 2,Dengue fever grade II,"Dr. Ir. Lanjar Mardhiyah, S.E.I, Sp.A",2024-03-10 19:12:00,2024-03-18 07:12:00
+252,99,ICU,Acute kidney injury dengan dialysis,"Dr. Aisyah Laksmiwati, Sp.PD",2024-02-17 00:00:00,2024-02-20 00:00:00
+253,100,ICU,COVID-19 dengan pneumonia,"Dr. Ega Agustina, Sp.PD",2024-01-19 00:00:00,2024-01-26 12:00:00
+254,100,Ruang Rawat Inap Kelas 1,COVID-19 dengan pneumonia,"Dr. Bambang Megantara, Sp.PD",2024-03-17 12:00:00,2024-03-19 06:00:00
+255,100,PICU,Pneumonia berat dengan respiratory distress,"Dr. Ira Siregar, Sp.P",2024-03-31 06:00:00,2024-04-04 06:00:00
